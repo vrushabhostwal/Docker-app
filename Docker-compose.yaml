@@ -5,7 +5,7 @@ services:
     ports:
       - "3306:3306"
     volumes:
-      - vprodata:/var/lib/mysql
+      - vprodbdata:/var/lib/mysql
     environment:
       - MYSQL_ROOT_PASSWORD=vprodbpass
 
